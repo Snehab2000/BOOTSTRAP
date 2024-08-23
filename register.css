@@ -1,0 +1,48 @@
+
+.form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:  #f5bccc;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+    border-radius: 30px;
+  }
+  #name,#email,#password,#confirm-password{
+    background-color: #f8e1e8;
+}
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    background-color: #ff5686;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: crimson;
+    border:none;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-center p {
+    margin-bottom: 10px;
+  }
+  .text-center a{ 
+    color: #f82b65;
+  }
