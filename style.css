@@ -42,15 +42,16 @@
 #car{
 	margin:30px 10px;
 }
+
 #car .carousel-item img {
 	height: 350px; 
 	object-fit: cover;
 	border-radius: 10px;
   }
 #car .carousel-item h1{
-	font-size: 70px;
+	font-size: 50px;
 	color: white;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	background-color: rgb(126, 0, 42);
 	border-radius: 20px;
 	padding: 6px 5px;
