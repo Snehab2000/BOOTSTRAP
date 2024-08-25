@@ -53,6 +53,45 @@ body {
     background-color: #ff6d9c;
   }
 
+  /* Responsive styles */
+@media (max-width: 768px) {
+  .product {
+    margin-bottom: 10px;
+  }
+  .product img {
+    height: 100px;
+  }
+  .product h5 {
+    font-size: 16px;
+  }
+  .product p {
+    font-size: 14px;
+  }
+  .product button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product {
+    margin-bottom: 5px;
+  }
+  .product img {
+    height: 80px;
+  }
+  .product h5 {
+    font-size: 14px;
+  }
+  .product p {
+    font-size: 12px;
+  }
+  .product button {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+
   footer {
    margin: 0%;
     padding: 20px;
